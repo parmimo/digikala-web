@@ -1,0 +1,178 @@
+div.amazing {
+  width: 100%;
+  height: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .childamazing {
+    height: 100%;
+    width: 90%;
+    background-color: rgb(221, 49, 78);
+    border-radius: 20px;
+    padding: 20px 20px 20px 0;
+    box-sizing: border-box;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  box-sizing: border-box;
+  &.banner {
+    background-color: transparent;
+    .more {
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-family: IranYekan;
+        font-size: 11px;}
+        svg{
+          width: 18px; 
+          height: 18px; 
+          fill: #fff;
+          padding-top: 10px;
+          margin-top: 10px;
+        }
+      }
+    }
+  &.borders{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 90%;
+      height: 100%;
+    }
+  }
+
+  .text {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: IranYekan;
+    font-size: 11px;
+    color: rgb(100, 99, 99);
+    text-align: right;
+  }
+  .newprice {
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    box-sizing: border-box;
+    svg{
+      width: 16px; 
+      height: 16px; 
+      fill:#424750;
+
+    }
+
+    .discount {
+      background-color: #D32F2F;
+      padding: 3px 8px;
+      box-sizing: border-box;
+      border-radius: 45%;
+      font-family:IranYekan,sans-serif;
+      font-size: 12px;
+      color: white;
+      
+    }
+    .price {
+      font-family: IranYekan;
+      font-size: 13px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+  }
+  .oldprice {
+    width: 100%;
+    display: flex;
+    font-family: IranYekan;
+    font-size: 12px;
+    color: lightgray;
+    text-decoration: line-through;
+    justify-content: end;
+    margin-left: 17px;
+    padding-left: 32px;
+    padding-bottom: 25px;
+    text-decoration-color: lightgray;
+  }
+
+  }
+
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next,.swiper-button-prev{
+  width: 38px;
+  height: 38px;
+  background-color: white;
+  color: lightslategray;
+  border-radius: 50%;
+  position: absolute;
+
+  &::after{
+  font-size:17px;
+  font-weight: bold;
+
+
+  }
+}
+
+
+
+
+.swiper-button-disabled{
+
+  display: none;
+}
+
+.morecontainer{
+  width: 100%;
+  display:flex ;
+  flex-flow: column;
+  gap: 10px;
+  .moreicon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 50%;
+    }
+  }
+  .moretitle{
+    font-family: IranYekan;
+    color:#5E5E7C;
+    font-size:14px ;
+    cursor: pointer;
+    
+  }
+}

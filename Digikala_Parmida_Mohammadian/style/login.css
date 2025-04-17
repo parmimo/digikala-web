@@ -1,0 +1,135 @@
+
+div.login {
+  width: 430px;
+  height: 497px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin:144px auto;
+  box-shadow: 0px 0px 1px ;
+  border-radius: 9px;
+  box-sizing: border-box;
+  padding: var(--padding);
+ padding-left: 15px;
+  padding-bottom: 3vh;
+
+  .login-icon {
+    width: 130px;
+    object-fit: contain;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    box-sizing: border-box;
+   padding: 10px ;
+   cursor: pointer;}
+    
+  .login-name {
+    font-family: IranYekan;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    font-weight: 650;
+    text-shadow: none;
+    font-size: 22px;
+    gap: 10px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+
+    .name2{
+      border-right: 3px solid black;
+      box-sizing: border-box;
+      padding-right: 8px;
+      height: 23px;
+    }
+  }
+  .login-caption {
+    font-family: IranYekan;
+    box-sizing: border-box;
+    font-size: 13.3px;
+    color: #484848;
+    font-weight: 400;
+    padding-top: 10px;
+  
+    p.p2 {
+      padding-top: 9px;
+      box-sizing: border-box;
+    }
+  }
+  .login-form {
+    color: #484848;
+    border-color: #00cccc;
+    padding-top: 22px;  
+  }
+
+   .login-input1 {
+      width: 350px;
+      height: 46px;
+      border-radius: 10px;
+      border: 1px solid #00cccc;
+      color: #484848;
+      font-size: 1.1rem;
+     font-family: iranyekan ;
+    padding-bottom: 9px;
+    padding-right: 16px;
+
+    &:focus{
+      outline: none;
+      border-color: #ed1944; 
+      color: #484848;
+    }
+    
+    }
+    }    
+      
+    .input-valid {
+      color: #b2001a;
+      font-family: IranYekan;
+      font-size: 13.3px;
+      padding: 0px 2px 0px 0px;
+      box-sizing: border-box;
+      transition: 200ms;
+      display: flex;
+      justify-content: baseline;
+      align-items: flex-start;
+      flex-direction: row;
+              
+    }
+  
+  .login-btn-1{
+    width: 371px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--color-top);
+    margin-top: 29px;
+    border-radius: 9px;  
+    border: none;
+    color: white;
+    font-family: IranYekan;
+    font-weight: 800;
+    line-height: 2.15;
+    text-shadow: none;
+    cursor: pointer;
+    margin-top: 33px;
+  }
+  .login-footer {
+    p {
+      font-family: IranYekan;
+      font-size: 11px;
+      font-weight: 12;
+      color: #484848;
+      padding-top: var(--padding-top);
+      a {
+        text-decoration: none;
+        color: #008eb2;
+   
+      }
+    }
+  }
+
